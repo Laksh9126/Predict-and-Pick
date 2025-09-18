@@ -3,10 +3,14 @@ import SmartCart from './SmartCart';
 
 function App() {
   return (
-    <div style={{ padding: '2rem', fontFamily: 'Arial' }}>
-      <h1>🛒 Predict and Pick</h1>
-      <SmartCart />
-    </div>
+    <main style={{ padding: '2rem', fontFamily: 'Arial, sans-serif' }}>
+      <header>
+        <h1 role="heading" aria-level="1">🛒 Predict and Pick</h1>
+      </header>
+      <section>
+        <SmartCart />
+      </section>
+    </main>
   );
 }
 
